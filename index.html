@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap' rel="stylesheet">
+    <title>Add</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>
+                MATHS 4 KIDS
+            </h1>
+            <ul>
+                <li class="current"><a href="index.html">Add</a></li>
+                <li ><a href="subtract.html">Subtract</a></li>
+                <li ><a href="multiply.html">Multiply</a></li>
+                <li ><a href="divide.html">Divide</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style="color: crimson;">1</h1>
+            <h1 style="color: magenta;">+</h1>
+            <h1 id="num2" style="color: cornflowerblue;"></h1>
+            <h style="color:blue">=</h>
+            <h1 id="ans"  style="color: lawngreen;">?</h1>
+        </div>
+        <div class="ans_option">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+        </div>
+    </div>
+
+    <audio id="myaudio" src="./music/buzz.mp3"></audio>
+    <script src="js/add.js"></script>
+</body>
+</html>
